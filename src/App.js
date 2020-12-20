@@ -18,11 +18,12 @@ export default class App extends Component {
       console.log(screenshot);
     });
   }
+  
   render() {
     return (
       <div>
-        <form className="site" onSubmit={this.makeThumbnail}>
-        <input type="text" name="link" placeholder="Enter your Url here..."/>
+        <form className="thumbnail" onSubmit={this.makeThumbnail}>
+        <input type="text" name="link" placeholder="Enter any URL here"/>
         <button type="submit">Submit</button>
         </form>
         { this.state.screenshot ? <img src={ this.state.screenshot } alt="link"/> : <p>Please enter your link.</p> }
