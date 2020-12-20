@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![](a.png.jpg)
 ![](b.png.jpg)
-![](b.png.jpg)
+![](c.png.jpg)
